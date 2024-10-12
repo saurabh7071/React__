@@ -1,7 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import { Card } from 'antd';
 const { Meta } = Card;
 
+// eslint-disable-next-line react/prop-types
 function Cards({username}) {
     return (
         <Card

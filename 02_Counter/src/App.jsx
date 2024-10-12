@@ -7,12 +7,25 @@ function App() {
 
   // let counter = 5;
 
+  // const addValue = () => {
+  //   if(counter < 20){
+  //     setCounter(counter+1);
+  //   }
+  // }
+
   const addValue = () => {
-    if(counter < 20) setCounter(counter+1)
+    if(counter < 20){
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+      setCounter(prevCounter => prevCounter + 1);
+    }
   }
 
   const removeValue = () =>{
-    if(counter > 0) setCounter(counter - 1);
+    if(counter > 0){
+      setCounter(counter - 1);
+    }
   }
 
   return (
