@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { useState } from 'react'
 import Login from './Components/Login'
 import Profile from './Components/Profile'
@@ -7,7 +8,7 @@ import UserContextProvider from './context/UserContextProvider'
 
 function App() {
 
-  return (
+  return ( 
     <UserContextProvider>
       <Login />
       <Profile />
